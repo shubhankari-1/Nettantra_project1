@@ -1,0 +1,193 @@
+<html lang="en">
+    <head><meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>Registration</header>
+
+            
+            <form action="#">
+                <div class="form first">
+                    <div id="firstdiv" style="background-color: wheat;">Personal details
+                            <div class="fields">
+                                <div class="input-field">
+                                    <label>Name</label>
+                                    <input type="text" placeholder="First" >
+                                </div>
+                                <div class="input-field">
+                                    <label></label>
+                                    <input type="text" placeholder="Last" >
+                                </div>
+                                <div class="input-field">
+                                    <label>Date of birth</label>
+                                    <input type="date" placeholder="Enter date of birth" >
+                                </div>
+                                <div class="input-field">
+                                    <label>Email</label>
+                                    <input type="text" placeholder="Enter your email" >
+                                </div>
+                                <div class="input-field">
+                                    <label>Father's Name</label>
+                                    <input type="text" placeholder="First" >
+                                </div>
+                                <div class="input-field">
+                                    <label></label>
+                                    <input type="text" placeholder="Last">
+                                </div>
+                                <div class="input-field">
+                                    <label>Mother's Name</label>
+                                    <input type="text" placeholder="First" >
+                                </div> 
+                                <div class="input-field">
+                                    <label></label>
+                                    <input type="text" placeholder="Last" >
+                                </div>
+                                <div class="input-field">
+                                    <label>Gender</label>
+                                    <label for="male">Male</label>
+                                    <input type="radio" name="gender" id="male" >
+                                    <label for="female">Female</label>
+                                    <input type="radio"  name="gender" id="female"  >
+                                    
+                                </div>
+                                <div class="input-field">
+                                    <label>Nationality</label>
+                                    <input type="text" placeholder="" >
+                               </div>
+                               <div class="input-field">
+                                <label>Home Address</label>
+                                <input type="text" placeholder="Street Address" >
+                                </div>
+                                <div class="input-field">
+                                    <label></label>
+                                    <input type="text" placeholder="City" >
+                                    </div>
+                                    <div class="input-field">
+                                        <label></label>
+                                        <input type="text" placeholder="Country" >
+                                        </div>
+                                        <div class="tab">
+                                            <label>Telephone-Home</label>
+                                         <p>
+                                            <input type="number" placeholder="Phone..." oninput="this.className=''" >
+                                            </p>
+                                            </div>
+                                            <div class="tab">
+                                                <label>Telephone-Mobile</label>
+                                                <p>
+                                                <input type="number" placeholder="Phone..." oninput="this.className=''" >
+                                                </p>
+                                                </div>
+                                                </div>
+                                                <button onclick="myFunction(2)">Next
+                                                </div>
+                                                </div>
+            </form>
+       
+        <form action="#">
+            <div class="form second">
+                <div id="seconddiv" style="display: none; background-color: lightblue;">Educational Details
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>HSC Institution name</label>
+                            <input type="text" placeholder="Enter Institution name"required>
+                        </div>
+                        <div class="input-field">
+                            <label>HSC Board(i.e CBSC,ICSC or State board)</label>
+                            <input type="text" placeholder="Enter your board name"required>
+                        </div>
+                        <div class="input-field">
+                            <label>Score in HSC</label>
+                            <input type="number" placeholder="Enter your score in percentage"required>
+                        </div>
+                        <div class="input-field">
+                            <label>SSC Institution name</label>
+                            <input type="text" placeholder="Enter Institution name "required>
+                        </div>
+                        <div class="input-field">
+                            <label>SSC Board(i.e CBSC,ICSC or State board)</label>
+                            <input type="text" placeholder="Enter your board name"required>
+                        </div>
+                        <div class="input-field">
+                            <label>Score in SSC</label>
+                            <input type="number" placeholder="Enter your score in percentage"required>
+                        </div>
+                        <div class="input-field">
+                            <label>Currently Pursuing</label>
+                            <input type="text" placeholder="Enter your current education"required>
+                        </div> 
+                        <div class="input-field">
+                            <label>Current Educational Institution name</label>
+                            <input type="text" placeholder="Enter Institution name"required>
+                        </div>
+                        <div class="input-field">
+                            <label>Overall percentage</label>
+                            <input type="number" placeholder="Enter your percentage"required>
+                        </div>
+                        <div class="input-field">
+                            <label>Cuurent backlogs if any</label>
+                            <input type="text" placeholder="No.of backlogs"required>
+                       </div>
+                       </div>
+                       <button onclick="myFunction(3)">next
+                    </button>
+                       </div>
+                       </div>
+                       </form>
+                       <form action="#">
+                        <div class="form third">
+                            <div id="thirddiv" style="display: none; background-color: lightgray;">Documents uploading
+                            <div class="file-upload-wrapper" data-text="select your file!">
+                                <input name="file-upload-field" type="file" class="file-upload-field" value=""required>                       
+                             </div>
+                             <div class="file-upload-wrapper" data-text="select your file!">
+                                <input name="file-upload-field" type="file" class="file-upload-field" value=""required>                       
+                             </div>
+                             <div class="file-upload-wrapper" data-text="select your file!">
+                                <input name="file-upload-field" type="file" class="file-upload-field" value=""required>                       
+                             </div>
+                             <div class="file-upload-wrapper" data-text="select your file!">
+                                <input name="file-upload-field" type="file" class="file-upload-field" value=""required>                       
+                             </div>
+                            <button onclick="myFunction(1)">submit
+                            </button>
+                            </button>
+                        </div>  
+                        </div>                      
+                </form>
+                </div>
+                <script>
+                    function myFunction(inputnum){
+                         if(inputnum===1)
+                         {
+                             document.getElementById("firstdiv").style.display="block"
+                             document.getElementById("seconddiv").style.display="none"
+                             document.getElementById("thirddiv").style.display="none"
+                             
+             
+                         }
+                         else if(inputnum===2)
+                         {
+                             document.getElementById("firstdiv").style.display="none"
+                             document.getElementById("seconddiv").style.display="block"
+                             document.getElementById("thirddiv").style.display="none"
+                             
+                         }
+                         else if(inputnum===3)
+                         {
+                             document.getElementById("firstdiv").style.display="none"
+                             document.getElementById("seconddiv").style.display="none"
+                             document.getElementById("thirddiv").style.display="block"
+                             
+                         }
+                        
+             
+                     }
+                 </script>
+        </body>
+        </html>
